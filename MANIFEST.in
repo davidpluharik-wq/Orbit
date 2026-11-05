@@ -1,0 +1,12 @@
+include app.py web_app.py requirements.txt README.md LICENSE CONTRIBUTING.md CHANGELOG.md .gitignore
+recursive-include orbit *.py *.svg
+recursive-include assets *.svg *.png
+recursive-include docs *.md *.png
+recursive-include scripts *.py
+recursive-include tests *.py
+recursive-include static *.html *.css *.js
+recursive-include .github *.yml *.md
+global-exclude *.pyc
+prune __pycache__
+prune .venv
+prune .devtools
