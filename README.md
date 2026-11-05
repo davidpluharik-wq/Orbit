@@ -48,8 +48,8 @@ Screenshots use synthetic data. Try the same workspace with `python3 app.py --de
 **Requirements:** Python 3.10+ and PyQt6. Linux is the primary target. Windows and macOS packaging and desktop integration have not been validated.
 
 ```sh
-git clone https://github.com/davidpluharik-wq/MyProject.git
-cd MyProject
+git clone https://github.com/davidpluharik-wq/Orbit.git
+cd Orbit
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
